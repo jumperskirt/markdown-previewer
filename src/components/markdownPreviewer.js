@@ -8,7 +8,7 @@ class MarkdownPreviewer extends Component {
 
     this.state = {
       converter: new showdown.Converter(),
-      value: `hullo`,
+      value: '#hello\n##hello\n###hello\n####hello',
     };
   }
 
@@ -25,7 +25,7 @@ class MarkdownPreviewer extends Component {
   render() {
     return (
     <div>
-    
+
       <div className="row">
         <div className="col-md-6">
           <textarea

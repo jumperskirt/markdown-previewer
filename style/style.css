@@ -1,3 +1,18 @@
 textarea {
   width: 100%;
 }
+
+.header{
+  text-align: center;
+}
+
+h1 {
+  padding-top: 40px;
+  font-family: georgia;
+  color: yellow;
+}
+
+h6 {
+  margin-bottom: 60px;
+  color: yellow;
+}
